@@ -14,13 +14,13 @@
 		70C7228D1988123E009CE797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7228C1988123E009CE797 /* main.m */; };
 		70C722911988123E009CE797 /* GWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C722901988123E009CE797 /* GWAppDelegate.m */; };
 		70C722941988123E009CE797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C722921988123E009CE797 /* Main.storyboard */; };
-		70C722971988123E009CE797 /* GWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C722961988123E009CE797 /* GWViewController.m */; };
 		70C722991988123E009CE797 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C722981988123E009CE797 /* Images.xcassets */; };
 		70C722A01988123E009CE797 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C7229F1988123E009CE797 /* XCTest.framework */; };
 		70C722A11988123E009CE797 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C722801988123E009CE797 /* Foundation.framework */; };
 		70C722A21988123E009CE797 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C722841988123E009CE797 /* UIKit.framework */; };
 		70C722AA1988123E009CE797 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70C722A81988123E009CE797 /* InfoPlist.strings */; };
 		70C722AC1988123E009CE797 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C722AB1988123E009CE797 /* UITableViewController_Challenge_SolutionTests.m */; };
+		70C722B719881311009CE797 /* GWTableViewControllerChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C722B619881311009CE797 /* GWTableViewControllerChallenge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		70C7228F1988123E009CE797 /* GWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWAppDelegate.h; sourceTree = "<group>"; };
 		70C722901988123E009CE797 /* GWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWAppDelegate.m; sourceTree = "<group>"; };
 		70C722931988123E009CE797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		70C722951988123E009CE797 /* GWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWViewController.h; sourceTree = "<group>"; };
-		70C722961988123E009CE797 /* GWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWViewController.m; sourceTree = "<group>"; };
 		70C722981988123E009CE797 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		70C7229E1988123E009CE797 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C7229F1988123E009CE797 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		70C722A71988123E009CE797 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		70C722A91988123E009CE797 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70C722AB1988123E009CE797 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		70C722B519881311009CE797 /* GWTableViewControllerChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWTableViewControllerChallenge.h; sourceTree = "<group>"; };
+		70C722B619881311009CE797 /* GWTableViewControllerChallenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWTableViewControllerChallenge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				70C7228F1988123E009CE797 /* GWAppDelegate.h */,
 				70C722901988123E009CE797 /* GWAppDelegate.m */,
 				70C722921988123E009CE797 /* Main.storyboard */,
-				70C722951988123E009CE797 /* GWViewController.h */,
-				70C722961988123E009CE797 /* GWViewController.m */,
+				70C722B519881311009CE797 /* GWTableViewControllerChallenge.h */,
+				70C722B619881311009CE797 /* GWTableViewControllerChallenge.m */,
 				70C722981988123E009CE797 /* Images.xcassets */,
 				70C722871988123E009CE797 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C722911988123E009CE797 /* GWAppDelegate.m in Sources */,
-				70C722971988123E009CE797 /* GWViewController.m in Sources */,
+				70C722B719881311009CE797 /* GWTableViewControllerChallenge.m in Sources */,
 				70C7228D1988123E009CE797 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  GWViewController.h
+//  GWTableViewControllerChallenge.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Gösta Woll on 29.07.14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GWViewController : UIViewController
+@interface GWTableViewControllerChallenge : UITableViewController
 
 @end
